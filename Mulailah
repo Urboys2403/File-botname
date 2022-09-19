@@ -1,0 +1,14 @@
+#! /usr/bin/bash
+#
+# Kredit: @urboysyou
+# DARI File-botname <https://github.com/urboys2403/File-botname/>
+
+# Cobalah untuk mengakhiri dan Menghapus sesi sebelumnya 
+ jika [ ! -d .git ] ; kemudian
+     git clone https://github.com/urboys2403/File-botname -b master tmp_git
+     mv tmp_git/.git .
+     rm -rf tmp_git
+fi 
+
+# mulai
+python3 main.py 
