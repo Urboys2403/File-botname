@@ -1,0 +1,2 @@
+# File-botname
+Lagi belajar
